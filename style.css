@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1536px;
+    position: absolute;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    background-image: url(/images/banner.jpg);
+}
+
+header .avt {
+    width: 20%;
+    padding-top: 25px;
+}
+
+.avt img {
+    width: 40%;
+    margin-left: 100px;
+    border-radius: 50%;
+}
+
+header nav {
+    width: 50%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+header nav ul {
+    display: flex;
+    width: 100%;
+}
+
+header nav li {
+    display: inline-block;
+    width: 20%;
+}
+
+header nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 23px;
+    color: rgb(199, 194, 194);
+}
+
+header nav a:hover {
+    color: aqua;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+header .btn-signin-signup {
+    width: 40%;
+    margin-top: 22px;
+}
+
+.header-sin-sup {
+    width: 30%;
+    display: flex;
+    padding-left: 70px;
+}
+
+.header-sin-sup input {
+    width: 120px;
+    height: 40px;
+    background-color: rgb(14, 14, 117);
+    margin-top: 50px;
+    font-size: 15px;
+    color: white;
+    border: 2px solid yellowgreen;
+    margin-left: 10px;
+}
+
+.header-sin-sup input:hover {
+    background-color: cadetblue;
+    text-decoration: underline;
+    width: 140px;
+    height: 45px;
+}
+
+/* OVER HEADER */
+
+/* CONTENT */
+.content {
+    width: 100%;
+    display: flex;
+}
+
+.content-left {
+    width: 10%;
+}
+
+.content-right {
+    width: 10%;
+}
+
+.content-main {
+    width: 80%;
+}
+
+.name-main {
+    width: 100%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(19, 19, 72);
+    height: 80px;
+    padding-top: 18px;
+    background-color: rgb(186, 186, 186);
+    border: 2px solid #ccc;
+    border-radius: 40px;
+    margin-top: 9px;
+}
+
+/* CONTENT INDEX */
+
+
+
+/* CONTENT PROJECT */
+
+
+
+/* CONTENT ABOUT */
+
+
+
+/* CONTENT POST */
+.content-post {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.list-post {
+    width: 70%;
+    background-color: antiquewhite;
+    margin-left: 15%;
+    border: 2.5px solid rebeccapurple;
+    border-radius: 20px;
+    padding-top: 25px;
+    margin-bottom: 20px;
+}
+
+.head-status {
+    width: 100%;
+    display: flex;
+}
+
+.avt-stt {
+    width: 20%;
+    text-align: center;
+}
+
+.avt-stt img {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.name-accout {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.name-accout p {
+    color: blue;
+    margin-top: 20px;
+}
+
+.stt {
+    width: 100%;
+    padding-left: 70px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.img-stt {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.img-stt img {
+    width: 80%;
+}
+
+.emitinal-all {
+    width: 100%;
+    background-color: gray;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    padding-top: 30px;
+}
+
+.emotional-stickers {
+    width: 100%;
+    display: flex;
+}
+
+.icon {
+    width: 30%;
+    text-align: center;
+    border: 4px gray solid;
+    margin-left: 100px;
+    background-color: #eee;
+    border-radius: 20px;
+    height: 50px;
+}
+
+.icon:hover {
+    background-color: #ccc;
+    width: 33%;
+}
+
+.icon img {
+    width: 20%;
+}
+
+
+.share {
+    width: 30%;
+    text-align: center;
+    padding-top: 10px;
+    border: 4px gray solid;
+    margin-left: 130px;
+    background-color: #eee;
+    border-radius: 20px;
+    height: 50px;
+}
+
+.share:hover {
+    background-color: #ccc;
+    width: 33%;
+}
+
+.share img {
+    width: 10%;
+}
+
+.comment input {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 15px;
+    margin-bottom: 50px;
+}
+
+/* CONTENT PRODUCT */
